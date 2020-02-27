@@ -1,10 +1,10 @@
 {
-  "name": "@tailwindcss/custom-forms",
-  "version": "0.2.1",
-  "description": "A better base for styling form elements with Tailwind CSS.",
+  "name": "tailwind-base-inputs",
+  "version": "0.1.0",
+  "description": "Better basic form inputs using tailwindcss, forked from tailwind-custom-forms",
   "main": "src/index.js",
-  "repository": "https://github.com/tailwindcss/custom-forms",
-  "author": "Adam Wathan",
+  "repository": "https://github.com/camflan/base-inputs",
+  "author": "Camron Flanders",
   "license": "MIT",
   "scripts": {
     "dev": "next dev docs",
@@ -15,7 +15,7 @@
     "prepare": "node scripts/build.js"
   },
   "peerDependencies": {
-    "tailwindcss": "^1.0"
+    "tailwindcss": "^1.2"
   },
   "dependencies": {
     "lodash": "^4.17.11",
@@ -40,6 +40,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-highlight": "^0.12.0",
-    "tailwindcss": "^1.1.2"
+    "tailwindcss": "^1.2.0"
   }
 }
