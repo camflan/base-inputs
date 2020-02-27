@@ -1,6 +1,6 @@
 {
   "name": "tailwind-base-inputs",
-  "version": "0.1.0",
+  "version": "0.3.2",
   "description": "Better basic form inputs using tailwindcss, forked from tailwind-custom-forms",
   "main": "src/index.js",
   "repository": "https://github.com/camflan/base-inputs",
