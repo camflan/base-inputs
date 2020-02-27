@@ -44,7 +44,7 @@ function buildDistFile(filename) {
 console.info('Building Tailwind!')
 
 Promise.all([
-  buildDistFile('custom-forms'),
+  buildDistFile('base-inputs'),
 ]).then(() => {
   console.log('Finished building CSS.')
 })

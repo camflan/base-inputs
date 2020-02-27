@@ -213,7 +213,7 @@ module.exports = function ({ addUtilities, addComponents, theme, postcss }) {
         backgroundColor: 'transparent',
         cursor: 'pointer',
         padding: '0',
-        // thumb size + focus ring + track border (1px top & 1px bottom) + 
+        // thumb size + focus ring + track border (1px top & 1px bottom) +
         // thumb border (1px top & 1px bottom)
         height: `calc(${options.thumbSize} + ${focusRing} + 4px)`,
         '&:focus': {
@@ -278,7 +278,7 @@ module.exports = function ({ addUtilities, addComponents, theme, postcss }) {
   }
 
   function registerComponents() {
-    const options = resolveOptions(theme('customForms'))
+    const options = resolveOptions(theme('baseInputs'))
 
     addInput(options.default.input)
     addTextarea(options.default.textarea)
