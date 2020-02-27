@@ -12,7 +12,7 @@ module.exports = {
     paddingBottom: defaultTheme.spacing[2],
     paddingLeft: defaultTheme.spacing[3],
     fontSize: defaultTheme.fontSize.base,
-    lineHeight: defaultTheme.lineHeight.8,
+    lineHeight: "defaultTheme.lineHeight.8",
     '&::placeholder': {
       color: defaultTheme.colors.gray[500],
       opacity: '1',
@@ -68,7 +68,7 @@ module.exports = {
     paddingBottom: defaultTheme.spacing[2],
     paddingLeft: defaultTheme.spacing[3],
     fontSize: defaultTheme.fontSize.base,
-    lineHeight: defaultTheme.lineHeight.8,
+    lineHeight: "defaultTheme.lineHeight.8",
     '&:focus': {
       outline: 'none',
       boxShadow: defaultTheme.boxShadow.outline,
@@ -97,7 +97,7 @@ module.exports = {
     paddingBottom: defaultTheme.spacing[2],
     paddingLeft: defaultTheme.spacing[3],
     fontSize: defaultTheme.fontSize.base,
-    lineHeight: defaultTheme.lineHeight.8,
+    lineHeight: "defaultTheme.lineHeight.8",
     backgroundPosition: `right ${defaultTheme.spacing[2]} center`,
     backgroundSize: `1.5em 1.5em`,
     iconColor: defaultTheme.colors.gray[500],
