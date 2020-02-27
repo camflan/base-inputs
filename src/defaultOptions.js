@@ -157,6 +157,15 @@ module.exports = {
     '&:disabled:checked': {
       backgroundColor: defaultTheme.colors.gray[500],
     },
+    indeterminateIcon: iconColor => `<svg viewBox="0 0 16 16" fill="${iconColor}" xmlns="http://www.w3.org/2000/svg"><rect width="8" height="2" x="4" y="7" rx="1" /></svg>`,
+    indeterminateIconColor: defaultTheme.colors.white,
+    '&:indeterminate': {
+      borderColor: 'transparent',
+      backgroundColor: 'currentColor',
+      backgroundSize: '100% 100%',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }
   },
   radio: {
     appearance: 'none',
