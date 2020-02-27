@@ -40,7 +40,7 @@ module.exports = {
     paddingBottom: defaultTheme.spacing[2],
     paddingLeft: defaultTheme.spacing[3],
     fontSize: defaultTheme.fontSize.base,
-    lineHeight: defaultTheme.lineHeight.8,
+    lineHeight: defaultTheme.lineHeight.normal,
     '&::placeholder': {
       color: defaultTheme.colors.gray[500],
       opacity: '1',
